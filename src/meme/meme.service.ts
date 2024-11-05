@@ -11,7 +11,7 @@ export class MemeService {
     const dir = 'static/memes';
     const baseUrl = process.env.IS_LOCAL
       ? 'http://localhost:3030/'
-      : 'http://147.45.156.127:3030';
+      : 'http://147.45.156.127:3030/';
 
     try {
       const files = fs.readdirSync(dir); // Читаем файлы в папке

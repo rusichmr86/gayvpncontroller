@@ -5,4 +5,7 @@ export class VpnService {
   getXyi(): string {
     return 'xyi';
   }
+  tiPidor(): string {
+    return 'Ты пидор';
+  }
 }

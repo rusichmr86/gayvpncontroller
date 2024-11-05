@@ -9,4 +9,8 @@ export class VpnController {
   getXyi(): string {
     return this.vpnService.getXyi();
   }
+  @Get('/test')
+  tiPidor(): string {
+    return this.vpnService.tiPidor();
+  }
 }

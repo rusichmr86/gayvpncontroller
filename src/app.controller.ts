@@ -54,6 +54,12 @@ export class AppController {
     return { message: 'Hello world2' };
   }
 
+  @Get('/09112001')
+  @Render('9112001')
+  gayPorn19112001() {
+    return { message: 'Hello world2' };
+  }
+
   @Get('/norm')
   @Render('norm')
   norm() {

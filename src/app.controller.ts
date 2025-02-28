@@ -23,4 +23,34 @@ export class AppController {
   dQw4w9WgXcQ() {
     return { message: 'Hello world2' };
   }
+
+  @Get('/naebal')
+  @Render('naebal')
+  naebal() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get('/7')
+  @Render('7')
+  naebal32() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get('/gayPorn')
+  @Render('gayPorn')
+  gayPorn() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get('/212')
+  @Render('212')
+  gayPorn212() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get('/9112001')
+  @Render('9112001')
+  gayPorn9112001() {
+    return { message: 'Hello world2' };
+  }
 }

@@ -111,4 +111,10 @@ export class AppController {
   qr() {
     return { message: 'Hello world2' };
   }
+
+  @Get('/gay')
+  @Render('gay')
+  gay() {
+    return { message: 'Hello world2' };
+  }
 }

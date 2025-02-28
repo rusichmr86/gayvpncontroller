@@ -53,4 +53,56 @@ export class AppController {
   gayPorn9112001() {
     return { message: 'Hello world2' };
   }
+
+  @Get('/norm')
+  @Render('norm')
+  norm() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get(
+    '/hG2fK8lP0qW4yN7dT5rB1zXG2fK8lP0qW4y6vM9jC30qW4yN7dT5rB1zXG2jC3sJ7tL9oQ2gF8xD6fK8lP0qW4T5rB1zXG2fK8lP0qW4y6vsU0aV4i6vM9jC3sJ7tL9oQ2gF8xD6eR3mZ5kY1pH',
+  )
+  @Render(
+    'hG2fK8lP0qW4yN7dT5rB1zXG2fK8lP0qW4y6vM9jC30qW4yN7dT5rB1zXG2jC3sJ7tL9oQ2gF8xD6fK8lP0qW4T5rB1zXG2fK8lP0qW4y6vsU0aV4i6vM9jC3sJ7tL9oQ2gF8xD6eR3mZ5kY1pH',
+  )
+  hG2fK8lP0qW4yN7dT5rB1zX6vM9jC3sU0aV4iJ7tL9oQ2gF8xD6eR3mZ5kY1pH() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get('/hz')
+  @Render('hz')
+  hz() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get('/jmi')
+  @Render('jmi')
+  jmi() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get('/jmi2')
+  @Render('jmi2')
+  jmi2() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get('/jmi3')
+  @Render('jmi3')
+  jmi3() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get('/jmi4')
+  @Render('jmi4')
+  jmi4() {
+    return { message: 'Hello world2' };
+  }
+
+  @Get('/qr')
+  @Render('qr')
+  qr() {
+    return { message: 'Hello world2' };
+  }
 }
